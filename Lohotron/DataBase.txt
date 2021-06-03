@@ -1,0 +1,12 @@
+CREATE DATABASE LOHOTRON
+
+USE LOHOTRON
+
+CREATE TABLE LOH
+(
+id INT PRIMARY KEY IDENTITY,
+fullname NVARCHAR(60),
+inn nvarchar(12) UNIQUE,
+telephone nvarchar(12) UNIQUE,
+vaccinationpoint nvarchar(120) 
+)
